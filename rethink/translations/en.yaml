@@ -11,6 +11,9 @@ network:
     47878/tcp: >-
         ThinQ1 device connection. If you modify this value, you will need to redirect devices'
         connections to this port somehow. Refer to the app documentation for details.
+    44401/tcp: >-
+        Rethink management port. Off by default, enable to allow capture of new devices.
+        Refer to the app documentation for details.
 
 configuration:
     hostname:

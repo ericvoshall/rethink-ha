@@ -45,6 +45,7 @@ ports:
     8883/tcp: 8883
     46030/tcp: 46030
     47878/tcp: 47878
+    44401/tcp:
 
 # User-configurable options & their defaults
 options:
